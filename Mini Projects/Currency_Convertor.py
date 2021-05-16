@@ -1,4 +1,4 @@
-# # Python Project on Currency Converter
+# # This is a Python Project on Currency Converter
 
 import requests
 from tkinter import *
