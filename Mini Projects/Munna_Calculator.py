@@ -75,7 +75,7 @@ def FACTORIAL():
        
     
 print('===Welcome To Smart Calculator===')
-print('My name is Bablu...Lets Breakitzz')
+print('Lets Breakitzz...')
 i=1
 while(i):
    list=[]
@@ -112,8 +112,6 @@ while(i):
    elif('End' in str2 or 'khatam' in str2 or 'ruk' in str2):
        print("\nOk Bye...")               
        i=0
-   elif('name' in str2 and 'boss' not in str2):
-       print('\nMy name is Bablu')
    elif('add' in str2 or 'plus' in str2 or 'jodke' in str2 or 'jod' in str2):
        print('\nAddition is =',add())
    elif('sub' in str2 or 'ghata' in str2 or 'minus'in str2):
@@ -133,11 +131,6 @@ while(i):
        print('')
    elif('fact' in str2):
        print(list[0],'factorial is =',FACTORIAL());
-   elif('boss' in str2 or "baap" in str2):
-       if str2=="boss":
-           print('\nMy Boss Name is Satyam Tripathi')
-       else:
-           print('\nMera Baap Satyam Tripathi Hai')
    else:
      print("Sorry :( I'm not able to understand what you are saying")
      
