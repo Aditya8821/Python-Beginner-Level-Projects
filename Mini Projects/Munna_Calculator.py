@@ -77,7 +77,7 @@ def FACTORIAL():
 print('===Welcome To Smart Calculator===')
 print('Lets Breakitzz...')
 i=1
-while(i):
+while(i==1):
    list=[]
    str2=[]
    str1=input('\nPlease Give Any Task to Me:')
